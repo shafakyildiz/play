@@ -50,3 +50,5 @@ publish/
 .nuget/
 project.lock.json
 artifacts/
+obj/Debug/
+obj/

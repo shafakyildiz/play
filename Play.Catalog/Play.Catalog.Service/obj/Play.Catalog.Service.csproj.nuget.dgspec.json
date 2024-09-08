@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\safak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\safak\\OneDrive\\Desktop\\PROJECTS\\play\\Play.Catalog\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

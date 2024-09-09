@@ -9,6 +9,7 @@ using Play.Catalog.Service.Repositories;
 
 namespace Play.Catalog.Service.Controllers
 {
+    // Items endpoint
     // https://localhost:5001/items
     [ApiController]
     [Route("items")]

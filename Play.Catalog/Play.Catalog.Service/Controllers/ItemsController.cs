@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Service.Dtos;
 using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Repositories;
+using Play.Common;
 
 namespace Play.Catalog.Service.Controllers
 {
@@ -19,7 +19,7 @@ namespace Play.Catalog.Service.Controllers
 
         public ItemsController(IRepository<Item> itemsRepository)
         {
-            this.itemsRepository= itemsRepository;
+            this.itemsRepository = itemsRepository;
         }
 
         [HttpGet]

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using MongoDB.Driver;
 
@@ -20,9 +21,19 @@ namespace Play.Common.MongoDB
             return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
         }
 
+        public async Task<IReadOnlyCollection<T>> GetAllAsync(Expression<Func<T, bool>> filter)
+        {
+            return await dbCollection.Find(filter).ToListAsync();
+        }
+
         public async Task<T> GetAsync(Guid id)
         {
             FilterDefinition<T> filter = filterBuilder.Eq(entity => entity.Id, id);
+            return await dbCollection.Find(filter).FirstOrDefaultAsync();
+        }
+
+        public async Task<T> GetAsync(Expression<Func<T, bool>> filter)
+        {
             return await dbCollection.Find(filter).FirstOrDefaultAsync();
         }
 
@@ -52,5 +63,6 @@ namespace Play.Common.MongoDB
             FilterDefinition<T> filter = filterBuilder.Eq(entity => entity.Id, id);
             await dbCollection.DeleteOneAsync(filter);
         }
+
     }
 }

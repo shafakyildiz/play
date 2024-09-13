@@ -1,4 +1,5 @@
 # docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
+# Instead of docker run command above, we may run the application with docker-compose up command right now.
 
 version: "3.8"
 

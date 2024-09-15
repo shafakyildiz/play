@@ -51,7 +51,7 @@ namespace Play.Catalog.Service
                 });
             });
 
-            services.AddMassTransitHostedService();
+            // services.AddMassTransitHostedService();
 
             services.AddControllers(options =>
             {
